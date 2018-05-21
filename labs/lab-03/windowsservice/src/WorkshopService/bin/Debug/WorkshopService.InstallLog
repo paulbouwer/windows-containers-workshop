@@ -1,0 +1,22 @@
+﻿Installing assembly 'C:\Users\paul\Documents\visual studio 2017\Projects\WorkshopService\WorkshopService\bin\Debug\WorkshopService.exe'.
+Affected parameters are:
+   logtoconsole = true
+   assemblypath = C:\Users\paul\Documents\visual studio 2017\Projects\WorkshopService\WorkshopService\bin\Debug\WorkshopService.exe
+   logfile = C:\Users\paul\Documents\visual studio 2017\Projects\WorkshopService\WorkshopService\bin\Debug\WorkshopService.InstallLog
+Installing service WorkshopService...
+Service WorkshopService has been successfully installed.
+Creating EventLog source WorkshopService in log Application...
+Committing assembly 'C:\Users\paul\Documents\visual studio 2017\Projects\WorkshopService\WorkshopService\bin\Debug\WorkshopService.exe'.
+Affected parameters are:
+   logtoconsole = true
+   assemblypath = C:\Users\paul\Documents\visual studio 2017\Projects\WorkshopService\WorkshopService\bin\Debug\WorkshopService.exe
+   logfile = C:\Users\paul\Documents\visual studio 2017\Projects\WorkshopService\WorkshopService\bin\Debug\WorkshopService.InstallLog
+Uninstalling assembly 'C:\Users\paul\Documents\visual studio 2017\Projects\WorkshopService\WorkshopService\bin\Debug\WorkshopService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\paul\Documents\visual studio 2017\Projects\WorkshopService\WorkshopService\bin\Debug\WorkshopService.exe
+   logfile = C:\Users\paul\Documents\visual studio 2017\Projects\WorkshopService\WorkshopService\bin\Debug\WorkshopService.InstallLog
+Removing EventLog source WorkshopService.
+Service WorkshopService is being removed from the system...
+Service WorkshopService was successfully removed from the system.
+Attempt to stop service WorkshopService.

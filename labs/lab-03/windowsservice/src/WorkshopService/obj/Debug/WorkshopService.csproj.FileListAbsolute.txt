@@ -1,0 +1,10 @@
+c:\users\paul\documents\visual studio 2017\Projects\WorkshopService\WorkshopService\bin\Debug\WorkshopService.exe.config
+c:\users\paul\documents\visual studio 2017\Projects\WorkshopService\WorkshopService\bin\Debug\WorkshopService.exe
+c:\users\paul\documents\visual studio 2017\Projects\WorkshopService\WorkshopService\bin\Debug\WorkshopService.pdb
+c:\users\paul\documents\visual studio 2017\Projects\WorkshopService\WorkshopService\obj\Debug\WorkshopService.exe
+c:\users\paul\documents\visual studio 2017\Projects\WorkshopService\WorkshopService\obj\Debug\WorkshopService.pdb
+c:\users\paul\documents\visual studio 2017\Projects\WorkshopService\WorkshopService\bin\Debug\NLog.config
+c:\users\paul\documents\visual studio 2017\Projects\WorkshopService\WorkshopService\bin\Debug\NLog.dll
+c:\users\paul\documents\visual studio 2017\Projects\WorkshopService\WorkshopService\bin\Debug\NLog.xml
+c:\users\paul\documents\visual studio 2017\Projects\WorkshopService\WorkshopService\obj\Debug\WorkshopService.ProjectInstaller.resources
+c:\users\paul\documents\visual studio 2017\Projects\WorkshopService\WorkshopService\obj\Debug\WorkshopService.csproj.GenerateResource.Cache

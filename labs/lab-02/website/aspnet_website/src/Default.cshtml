@@ -1,0 +1,30 @@
+﻿@{
+    Layout = "~/_SiteLayout.cshtml";
+    Page.Title = "Home Page";
+
+    var config = new NLog.Config.LoggingConfiguration();
+    var logfile = new NLog.Targets.FileTarget() { FileName = System.Web.Configuration.WebConfigurationManager.AppSettings["LogLocation"] + "log.txt", Name = "logfile", Layout = "${longdate}|${level:uppercase=true}|${logger}|${message}" };
+    config.LoggingRules.Add(new NLog.Config.LoggingRule("*", NLog.LogLevel.Debug, logfile));
+    NLog.LogManager.Configuration = config;
+
+    var logger = NLog.LogManager.GetCurrentClassLogger();
+    logger.Info("Hello from inside a container.");
+}
+
+@section featured {
+<section class="featured">
+    <div class="content-wrapper">
+        <hgroup class="title">
+            <h1>App Settings</h1>
+            <p>
+                <strong>Message:</strong> @System.Web.Configuration.WebConfigurationManager.AppSettings["Message"]
+            </p>
+            <h1>Connection Strings</h1>
+            <p>
+                <strong>DBConnection:</strong> @System.Web.Configuration.WebConfigurationManager.ConnectionStrings["DBConnection"]
+            </p>
+        </hgroup>
+    </div>
+</section>
+}
+
