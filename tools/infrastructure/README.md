@@ -13,7 +13,7 @@ az vm create -n win1803-01 -g ContainerCamp-VMs --image "MicrosoftWindowsServer:
 
 $ password=$(cat /dev/urandom | tr -dc 'a-zA-Z0-9' | fold -w 12 | head -n 1)
 
-$ resourceGroup=CC2018AU-VM
+$ resourceGroup=ContainerCamp-VMs
 $ vmName=win1803-01
 
 # check if VM is running yet
