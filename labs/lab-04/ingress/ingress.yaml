@@ -1,0 +1,21 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  annotations:
+    kubernetes.io/ingress.class: nginx
+    nginx.ingress.kubernetes.io/rewrite-target: /
+  name: iis-ingress
+  namespace: default
+spec:
+  rules:
+    - host: <cluster-name>.<region>.cloudapp.com
+      http:
+        paths:
+          - backend:
+              serviceName: iis
+              servicePort: 80
+            path: /
+          - backend:
+              serviceName: nginx
+              servicePort: 80
+            path: /linux
